@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+stockpilot-frontend/dist/
+login-test.json
+register-test.json
+smtp-test.js
+login-test.json
+register-test.json
+smtp-test.js

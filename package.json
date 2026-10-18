@@ -1,0 +1,24 @@
+{
+  "name": "stockpilot-backend",
+  "version": "1.0.0",
+  "description": "StockPilot - Retail Inventory, Sales & Purchase Management SaaS (Backend API)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/auth.validation.test.js test/email-verification.test.js test/password-reset.test.js test/profile-settings.test.js test/investing.test.js test/indian-formatting.test.js test/indian-greetings.test.js test/portfolio-history.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0",
+    "nodemailer": "^6.9.14",
+    "validator": "^13.12.0"
+  }
+}
